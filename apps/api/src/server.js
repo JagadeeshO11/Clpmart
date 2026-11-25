@@ -21,7 +21,7 @@ const Product=mongoose.models.Product||mongoose.model('Product',ProductSchema);
 const Order=mongoose.models.Order||mongoose.model('Order',OrderSchema);
 
 const demo=[
- {_id:'demo-1',title:'Wireless Bluetooth Headphones',description:'Comfort fit with rich sound.',price:1299,category:'Electronics',image:'https://images.unsplash.com/photo-150 áudio?auto=format&fit=crop&w=700&q=80',stock:24,sellerName:'SoundHub'},
+ {_id:'demo-1',title:'Wireless Bluetooth Headphones',description:'Comfort fit with rich sound.',price:1299,category:'Electronics',image:'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80',stock:24,sellerName:'SoundHub'},
  {_id:'demo-2',title:'Everyday Cotton T-shirt',description:'Soft breathable cotton.',price:499,category:'Fashion',image:'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80',stock:50,sellerName:'ThreadTown'},
  {_id:'demo-3',title:'Minimal Desk Lamp',description:'Warm light for focused evenings.',price:899,category:'Home',image:'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80',stock:12,sellerName:'NestWorks'},
  {_id:'demo-4',title:'Everyday Backpack',description:'Roomy, durable daily carry.',price:999,category:'Accessories',image:'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80',stock:18,sellerName:'CarryCo'}
